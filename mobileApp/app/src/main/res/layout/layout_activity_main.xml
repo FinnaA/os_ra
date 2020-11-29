@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="265dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="180dp"
+        android:src="@mipmap/logo" />
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="18dp"
+        android:text="@string/prompt"
+        android:textAlignment="center"
+        android:textSize="22sp" />
+
+    <FrameLayout
+        android:id="@+id/assistant_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+
+
+    <!--    <Button-->
+<!--        android:id="@+id/button_home"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button"-->
+<!--        android:layout_gravity="center|bottom"-->
+<!--        android:onClick="goHome" />-->
+
+</FrameLayout>

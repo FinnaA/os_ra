@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">РосАтом</string>
+    <string name="prompt">Привет, я ваш ассистент! Нажмите на кнопку внизу экрана.</string>
+    <string name="initial_phrase">Желаете создать поручение?</string>
+</resources>
